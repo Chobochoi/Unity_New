@@ -20,7 +20,7 @@ namespace Ch02
 {
     internal class _3_Operator
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 산술 연산자
             int num1 = 1;

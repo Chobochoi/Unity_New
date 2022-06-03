@@ -8,7 +8,7 @@ namespace Book.Ch02
 {
     internal class p96
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int number = 10;
             Console.WriteLine(number);
