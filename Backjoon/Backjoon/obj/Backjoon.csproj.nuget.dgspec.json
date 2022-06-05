@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\choi\\Desktop\\Unity_New-main\\Unity_New-main\\Backjoon\\Backjoon\\Backjoon.csproj": {}
+    "C:\\Users\\choi\\Desktop\\Unity_New\\Backjoon\\Backjoon\\Backjoon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\choi\\Desktop\\Unity_New-main\\Unity_New-main\\Backjoon\\Backjoon\\Backjoon.csproj": {
+    "C:\\Users\\choi\\Desktop\\Unity_New\\Backjoon\\Backjoon\\Backjoon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\choi\\Desktop\\Unity_New-main\\Unity_New-main\\Backjoon\\Backjoon\\Backjoon.csproj",
+        "projectUniqueName": "C:\\Users\\choi\\Desktop\\Unity_New\\Backjoon\\Backjoon\\Backjoon.csproj",
         "projectName": "Backjoon",
-        "projectPath": "C:\\Users\\choi\\Desktop\\Unity_New-main\\Unity_New-main\\Backjoon\\Backjoon\\Backjoon.csproj",
+        "projectPath": "C:\\Users\\choi\\Desktop\\Unity_New\\Backjoon\\Backjoon\\Backjoon.csproj",
         "packagesPath": "C:\\Users\\choi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\choi\\Desktop\\Unity_New-main\\Unity_New-main\\Backjoon\\Backjoon\\obj\\",
+        "outputPath": "C:\\Users\\choi\\Desktop\\Unity_New\\Backjoon\\Backjoon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\choi\\AppData\\Roaming\\NuGet\\NuGet.Config",

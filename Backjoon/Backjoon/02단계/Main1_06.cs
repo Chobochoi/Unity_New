@@ -17,24 +17,27 @@ namespace Backjoon._02단계
         static void Main(string[] args)
         {
             string[] str1 = Console.ReadLine().Split();
-            string str2 = Console.ReadLine();
-
+            
             int n1 = int.Parse(str1[0]);
             int n2 = int.Parse(str1[1]);
 
-            int n3 = int.Parse(str2);
+            int n3 = int.Parse(Console.ReadLine());
 
-            if (n1 > 23 && n2 > 59)
-            {
-                return;
-            }
+            n2 += n3;
 
-            if (n2 < 59)
+            while (n2 >= 60)
             {
                 n1++;
-                                
+                n2 -= 60;
+                              
             }
 
+            if (n1 >= 24)
+            {
+                n1 -= 24;
+            }
+
+            Console.WriteLine(n1 + " " + n2);
         }
     }
 }
