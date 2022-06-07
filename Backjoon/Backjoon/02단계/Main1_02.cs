@@ -8,7 +8,7 @@ namespace Backjoon._02단계
 {
     internal class Main1_02
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             
             string strScore = Console.ReadLine();
