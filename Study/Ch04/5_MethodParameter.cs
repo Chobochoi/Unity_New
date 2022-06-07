@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 이름 최미수
 내용 Method 출력전용 매개변수
 MethodParameter 실습
+
+출력 매개변수 ref
+변수의 reference(주소)값으로 참조 값이 가르키는 실제변수에 값을 대입하는 매개변수
+
+출력 매개변수 out
+별도의 변수선언 없이 바로 Method 호출 시 Method의 결과를 리턴 받는 매개변수
+Method는 하나의 리턴 값을 여러개의 값으로 리턴할 수 있는 효과를 얻는다.
 */
 
 namespace Ch04
