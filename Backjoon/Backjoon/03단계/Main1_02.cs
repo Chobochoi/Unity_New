@@ -11,7 +11,7 @@ namespace Backjoon._03단계
 {
     internal class Main1_02
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
 
