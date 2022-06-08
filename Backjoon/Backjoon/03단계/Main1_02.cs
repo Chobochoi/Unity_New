@@ -13,6 +13,17 @@ namespace Backjoon._03단계
     {
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+
+            for(int i = 0; i < a; i++)
+            {
+                string[] str = Console.ReadLine().Split();
+                int n1 = int.Parse(str[0]);
+                int n2 = int.Parse(str[1]);
+
+                Console.WriteLine(n1 + n2);
+
+            }
 
         }
     }
