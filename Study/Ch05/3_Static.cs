@@ -37,7 +37,7 @@ namespace Ch05
         public static void Add()
         {
             // static Method(클래스 Method)에서는 non-static 변수를 참조할 수 없다.
-            //num1++;
+            // num1++;
             num2++;
 
             Console.WriteLine("num2 :" +num2);
