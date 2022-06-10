@@ -8,7 +8,7 @@ namespace Test
 {
     internal class _1_05
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string strScore = "60,72,82,86,92";
             string[] scores = strScore.Split(",");
