@@ -11,15 +11,15 @@ namespace Backjoon._03단계
         static void Main1(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
-
             int sum = 0;
+            StringBuilder sb = new StringBuilder();
 
-            for(int i = 0; i <= a; i++)
+            for(int i = 1; i <= a; i++)
             {
-                sum += i;
+                sb.Append(i+ "\n");
             }
 
-            Console.WriteLine(sum);
+            Console.WriteLine(sb.ToString());
             
         }
     }

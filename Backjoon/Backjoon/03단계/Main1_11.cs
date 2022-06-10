@@ -8,5 +8,6 @@ namespace Backjoon._03단계
 {
     internal class Main1_11
     {
+        
     }
 }
