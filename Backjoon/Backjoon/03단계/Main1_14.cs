@@ -8,9 +8,6 @@ namespace Backjoon._03단계
 {
     internal class Main1_14
     {
-        static void Main(string[] args)
-        {
-
-        }
+        
     }
 }
