@@ -10,7 +10,7 @@ namespace Backjoon._04단계
     {
         private static int[] n;
         
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             n = new int[9];
             int max = n[0];
