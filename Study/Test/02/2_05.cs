@@ -8,7 +8,7 @@ namespace Test._02
 {
     internal class _2_05
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             
             // 선행조건 : 원소의 배열이 정리가 되어있어야 한다.
