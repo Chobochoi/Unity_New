@@ -8,7 +8,7 @@ namespace Backjoon._04단계
 {
     internal class Main1_04
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int[] input = new int[10];
             int result = 0;
