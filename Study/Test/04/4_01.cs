@@ -26,7 +26,7 @@ namespace Test._04
    
     internal class _4_01
     {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         Point3D p1;
         p1.x = 10;
