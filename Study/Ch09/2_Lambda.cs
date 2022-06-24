@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace Ch09
 {
-    internal class _2_Lambda
+   /* internal class _2_Lambda
     {
         static void Main1(string[] args)
         {
@@ -52,5 +52,5 @@ namespace Ch09
             dataset.ForEach((n) => { Console.WriteLine(n+" "); });
 
         }
-    }
+    }*/
 }
