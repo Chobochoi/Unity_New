@@ -38,7 +38,7 @@ namespace Project2
                 conn.Open();
                 // SQL ½ÇÇà
                 MySqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "SELECT * FROM `tbl_member`";
+                cmd.CommandText = "SELECT * FROM `user2`";
 
                 MySqlDataReader reader = cmd.ExecuteReader();
 
@@ -92,7 +92,7 @@ namespace Project2
             {
                 conn.Open();
                 MySqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = $"INSERT INTO `tbl_member` VALUES ('{uid}','{name}','{hp}','{age}')";
+                cmd.CommandText = $"INSERT INTO `user2` VALUES ('{uid}','{name}','{hp}',{age})";
 
                 cmd.ExecuteNonQuery();
             }
