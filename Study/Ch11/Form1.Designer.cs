@@ -70,6 +70,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnForm2 = new System.Windows.Forms.Button();
+            this.btnForm3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -486,11 +487,22 @@
             this.btnForm2.UseVisualStyleBackColor = true;
             this.btnForm2.Click += new System.EventHandler(this.btnForm2_Click);
             // 
+            // btnForm3
+            // 
+            this.btnForm3.Location = new System.Drawing.Point(207, 569);
+            this.btnForm3.Name = "btnForm3";
+            this.btnForm3.Size = new System.Drawing.Size(187, 23);
+            this.btnForm3.TabIndex = 44;
+            this.btnForm3.Text = "Form3 띄우기";
+            this.btnForm3.UseVisualStyleBackColor = true;
+            this.btnForm3.Click += new System.EventHandler(this.btnForm3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 604);
+            this.Controls.Add(this.btnForm3);
             this.Controls.Add(this.btnForm2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -578,5 +590,6 @@
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private Button btnForm2;
+        private Button btnForm3;
     }
 }
