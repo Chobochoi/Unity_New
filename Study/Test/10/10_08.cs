@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Test._10
+{
+    class Member
+    {
+        public string Name { get; init; }
+        public string Hp { get; init; }
+        public int Age { get; init; }
+
+        public override string ToString()
+        {
+            return $"{Name},{Hp},{Age}";
+        }
+    }
+
+    internal class _10_08
+    {
+        static void Main1(string[] args)
+        {
+            Member m1 = new Member { Name = "김유신", Hp = "010-1234-1001", Age = 25 };
+            Member m2 = new Member { Name = "김춘추", Hp = "010-1234-1002", Age = 23 };
+            Member m3 = new Member { Name = "김보고", Hp = "010-1234-1003", Age = 47 };
+        }
+    }
+}
