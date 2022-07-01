@@ -53,8 +53,7 @@
      - 3. Select
 ## Ch11 Window Form 연습
      - 1. Form1
-     ![image](https://user-images.githubusercontent.com/102361334/176802655-b34acda5-81ee-4b29-9ede-d57b48c4b1be.png)
-
+     
      - 2. Form2
      
      - 3. Form3
